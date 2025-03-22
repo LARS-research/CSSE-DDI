@@ -65,11 +65,11 @@ class RGCNLinkDataset(object):
             'valid': f'{self.dir}/dev_raw.txt',
             'test': f'{self.dir}/test_raw.txt'
         }
-        external_kg_file = f'{self.dir}/external_kg.txt'
-        adj_list, triplets, entity2id, relation2id, id2entity, id2relation, rel = process_files_ddi(file_paths, external_kg_file)
-        A_incidence = incidence_matrix(adj_list)
-        A_incidence += A_incidence.T
-        self.adj = A_incidence
+        # external_kg_file = f'{self.dir}/external_kg.txt'
+        # adj_list, triplets, entity2id, relation2id, id2entity, id2relation, rel = process_files_ddi(file_paths, external_kg_file)
+        # A_incidence = incidence_matrix(adj_list)
+        # A_incidence += A_incidence.T
+        # self.adj = A_incidence
 
 
 
