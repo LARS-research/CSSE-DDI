@@ -48,7 +48,7 @@ python run.py --encoder searchgcn --score_func mlp --combine_type concat --n_lay
 ### Subgraph Selection and Encoding Function Searching
 ```shell
 python run.py --encoder searchgcn --score_func mlp --combine_type concat --n_layer 3 --epoch 400 \
---batch 512 --seed 0 --search_mode joint_search --search_algorithm spos_train_supernet_ps2 --input_type allgraph \
+--batch 512 --seed 0 --search_mode joint_search --search_algorithm spos_arch_search_ps2 --input_type allgraph \
 --loss_type ce --dataset drugbank  --exp_note spfs --weight_sharing --ss_search_algorithm snas --arch_search_mode ng
 ```
 ## Citation
