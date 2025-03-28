@@ -64,11 +64,13 @@ python run.py --encoder searchgcn --score_func mlp --combine_type concat --n_lay
 Readers are welcomed to follow our work. Please kindly cite our paper:
 
 ```bibtex
-@inproceedings{du2024customized,
-    title={Customized Subgraph Selection and Encoding for Drug-drug Interaction Prediction},
-    author={Du, Haotong and Yao, Quanming and Zhang, Juzheng and Liu, Yang and Wang, Zhen},
-    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-    year={2024}
+@article{du2024customized,
+  title={Customized subgraph selection and encoding for drug-drug interaction prediction},
+  author={Du, Haotong and Yao, Quanming and Zhang, Juzheng and Liu, Yang and Wang, Zhen},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={109582--109608},
+  year={2024}
 }
 ```
 
